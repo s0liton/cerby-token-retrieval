@@ -1,0 +1,18 @@
+# Cerby Domain (subdomain only, e.g., 'acme' for acme.cerby.com)
+WORKSPACE_DOMAIN:
+
+# Login Credentials (For Okta or Local Cerby login)
+USERNAME:
+PASSWORD:
+
+# How will you log in? Set to 'okta' or 'local'
+LOGIN_TYPE:
+
+# If Okta or Cerby Local Login requires MFA, set to true. Otherwise, false or empty.
+MFA_ENABLED: false
+
+# If MFA is enabled above, provide the Seed for OTP generation
+TOTP_SEED:
+
+# By default, runs in headless mode. If you want to see the browser, set to false.
+HEADLESS: true
