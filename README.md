@@ -54,7 +54,7 @@ Set environment variables.
 After configuring `config.yaml`, run:
 
 ```bash
-python cerby_token_retrieval.py
+python main.py
 ```
 
 The tool will output your bearer token, which you can use for authenticated API requests.
