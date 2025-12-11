@@ -41,7 +41,7 @@ Install the necessary browsers.
 playwright install
 ```
 
-## Configuration
+### 4. Configuration
 
 The tool uses a `config.yaml` file for configuration. Use the example.config.yaml file to set your configuration. - Keep your `config.yaml` secure.
 
