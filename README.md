@@ -60,3 +60,4 @@ python main.py
 The tool will output your bearer token, which you can use for authenticated API requests.
 
 ## Notes
+- The tool does NOT attempt to keep a session alive, it will need to re-authenticate once the user's session in Cerby expires. This will be an enhanced in the near future to attempt to keep the session alive as long as possible.
